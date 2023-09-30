@@ -22,6 +22,16 @@
   letter-spacing: 0.02em;
   background-color: var(--white-background);
 }
+
+.container {
+  width: 1158px;
+}
+
+.header {
+  border-bottom: 1px solid var(--accent);
+  flex-shrink: 0;
+}
+
 .nav-link {
   color: var(--dark);
   font-size: 16px;
@@ -41,6 +51,10 @@ nav .logo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  display: inline-flex;
+  align-items: center;
+  width: 115px;
+  margin-left: 0;
 }
 nav .logo-studio {
   color: var(--dark);

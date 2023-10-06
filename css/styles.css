@@ -56,15 +56,19 @@
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 /* HEADER */
 
 .head {
-  
   border-bottom: 1px solid var(--accent);
-  
-}
+  }
 
 .menu {
   display: inline-flex;
@@ -213,21 +217,21 @@ margin: 0;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-    padding: 16px 32px;
-   gap: 10px;
-  border: solid var(--primary-brand);
+  padding: 16px 32px;
+  gap: 10px;
+  border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .index-s-one-button:hover {
   background-color: var(--pressed-state);
-  border: solid var(--pressed-state);
+  border: none;
 }
 
 .index-s-one-button:focus {
   background-color: var(--pressed-state);
-  border: solid var(--pressed-state);
+  border: none;
 }
 
 /* _______________________________opisy - kontener */
@@ -330,6 +334,9 @@ padding-left: 0;
   flex-basis: calc((100% - 48px) / 3);
   }
 
+.second-index > .img {
+  border: 1 solid var(--accent);
+}
 
 /* _________________________________our stuff */
 .four {
@@ -386,7 +393,7 @@ padding-right: 24px;
   line-height: 1.5;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--accent)
+  border: none;
 }
 
 .button:hover {

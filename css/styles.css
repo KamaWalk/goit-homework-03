@@ -292,8 +292,8 @@ nav .logo-studio {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8;
   padding: 8px;
+  margin-bottom: 8px;
 }
 
 .index-p {
@@ -364,6 +364,7 @@ nav .logo-studio {
 
 .stuff {
   text-align: center;
+  padding: 32px 16px 32px;
 }
 
 .stuff-description {
@@ -392,9 +393,6 @@ nav .logo-studio {
   margin-bottom: 72px;
 }
 
-.filter-button {
-  padding-top: 96px;
-}
 
 .button {
   color: var(--primary-brand);
@@ -428,7 +426,7 @@ nav .logo-studio {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 24px;
+  row-gap: 48px;
 }
 
 .image-link {

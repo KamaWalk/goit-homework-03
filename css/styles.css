@@ -173,6 +173,10 @@ nav .logo-studio {
   padding: 100px 0;
 }
 
+footer > div > a {
+  display: inline-block;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -364,7 +368,7 @@ nav .logo-studio {
 
 .stuff {
   text-align: center;
-  padding: 32px 16px 32px;
+  padding: 32px 16px;
 }
 
 .stuff-description {

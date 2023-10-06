@@ -364,17 +364,22 @@ nav .logo-studio {
 
 /* __________________________________PORTFOLIO PAGE */
 
+.main-portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-content);
+  padding-top: 0;
+}
+
 .filter-button {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.filter-button:first-child {
-  padding-left: 0;
-}
-
-.filter-button:last-child {
-  padding-right: 0;
+  padding-bottom: 72px;
+  padding-top: 96px;
 }
 
 .button {
@@ -395,13 +400,29 @@ nav .logo-studio {
 .button:hover {
   color: var(--white-background);
   background-color: var(--pressed-state);
-  border: 1px solid var(--pressed-state);
+  border: none;
 }
 
 .button:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
-  border: 1px solid var(--pressed-state);
+  border: none;
+}
+
+.portfolio-img-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-content);
+}
+
+.img-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border-left: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  border-right: 1px solid var(--accent);
 }
 
 .portfolio-headline {
@@ -410,4 +431,5 @@ nav .logo-studio {
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  margin-bottom: 8px;
 }

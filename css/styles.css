@@ -74,6 +74,10 @@ p {
   display: flex;
 }
 
+.head {
+  display: flex;
+}
+
 .nav {
   display: flex;
   align-items: center;

@@ -33,9 +33,6 @@
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -364,10 +361,7 @@ nav .logo-studio {
 
 .stuff {
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 0;
 }
 
 .stuff-description {

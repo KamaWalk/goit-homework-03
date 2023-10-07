@@ -71,6 +71,7 @@ p {
 
 .header {
   border-bottom: 1px solid var(--accent);
+  display: flex;
 }
 
 .nav {
@@ -179,12 +180,6 @@ nav .logo-studio {
   color: var(--light);
   max-width: 264px;
   text-align: left;
-}
-
-.footer > .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /* INDEX PAGE */
